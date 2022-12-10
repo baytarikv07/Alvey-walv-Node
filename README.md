@@ -1,5 +1,22 @@
 # Validator Setup Script
 
+BASİC
+
+connect to your server
+be sure you have git installed (to check run: git --version)
+git clone https://github.com/AlveyCoin/validator.git
+cd validator/
+chmod +x init_validator.sh
+chmod +x start_validator.sh
+./init_validator.sh
+if you have an error and empty Private Key ** cat: data-dir/consensus/validator.key: No such file or directory Private Key = 6-b) ./alveychain/alvey secrets init --data-dir data-dir
+it will print your keys (Save them!!!)
+./start_validator.sh
+
+
+
+
+
 Validator node setup script for Alvey Chain
 
 ## Minimum system requirements
